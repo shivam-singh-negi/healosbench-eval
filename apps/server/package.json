@@ -10,9 +10,14 @@
     "start": "bun run dist/index.mjs"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.40.0",
+    "drizzle-orm": "^0.45.1",
+    "pg": "^8.17.1",
     "@test-evals/auth": "workspace:*",
     "@test-evals/db": "workspace:*",
     "@test-evals/env": "workspace:*",
+    "@test-evals/llm": "workspace:*",
+    "@test-evals/shared": "workspace:*",
     "better-auth": "catalog:",
     "dotenv": "catalog:",
     "hono": "^4.8.2",

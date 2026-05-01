@@ -1,0 +1,23 @@
+{
+  "name": "@test-evals/llm",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./client": "./src/client.ts",
+    "./extract": "./src/extract.ts",
+    "./strategies": "./src/strategies/index.ts",
+    "./pricing": "./src/pricing.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.40.0",
+    "@test-evals/shared": "workspace:*",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@test-evals/config": "workspace:*",
+    "@types/bun": "catalog:",
+    "typescript": "catalog:"
+  }
+}
